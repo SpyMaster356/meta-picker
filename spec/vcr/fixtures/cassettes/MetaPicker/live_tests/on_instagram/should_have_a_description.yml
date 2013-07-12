@@ -1,0 +1,344 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://instagram.com/p/bowsK3B-3H
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+  response: 
+    status: 
+      code: 200
+      message: 
+    headers: 
+      content-language: 
+      - en
+      content-type: 
+      - text/html
+      date: 
+      - Thu, 11 Jul 2013 19:44:15 GMT
+      server: 
+      - nginx
+      set-cookie: 
+      - csrftoken=66dc3a069c84b375baed62a75eeda7d5; expires=Thu, 10-Jul-2014 19:44:15 GMT; Max-Age=31449600; Path=/, mid=Ud8LD___AAHBPByxYTla0EG2NxWT; expires=Wed, 06-Jul-2033 19:44:15 GMT; Max-Age=630720000; Path=/
+      vary: 
+      - Cookie, Accept-Language, Accept-Encoding
+      x-frame-options: 
+      - SAMEORIGIN
+      content-length: 
+      - "2842"
+      connection: 
+      - Close
+    body: 
+      encoding: ASCII-8BIT
+      string: |-
+        <!DOCTYPE html>
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="hl-en not-logged-in  can-open-media">
+        <head>
+            <meta charset="UTF-8" />
+            <title>
+        
+        
+        Video by joepymmosaic
+        
+        
+         &bull; Instagram</title>
+        
+            <meta name="robots" content="noimageindex" />
+        
+            <link rel="Shortcut Icon" type="image/x-icon" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" />
+        
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        
+            <link rel="apple-touch-icon-precomposed" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/apple-touch-icon-precomposed.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/apple-touch-icon-72x72-precomposed.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/apple-touch-icon-114x114-precomposed.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/apple-touch-icon-144x144-precomposed.png" />
+        
+            
+            <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+            
+        
+            
+            
+                <script type="text/javascript" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/scripts/jquery.js"></script>
+                <script type="text/javascript" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/scripts/bluebar.js"></script>
+        
+            
+            <script type="text/javascript" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/scripts/loading.js"></script>
+        
+            
+        
+        
+            
+            
+            
+        
+            
+            <meta name="medium" content="video" />
+            <meta property="og:type" content="video" />
+            <meta property="og:video" content="https://distilleryimage7.s3.amazonaws.com/72affc14ea5d11e29aee22000a9f38e6_101.mp4" />
+            <meta property="og:video:secure_url" content="https://distilleryimage7.s3.amazonaws.com/72affc14ea5d11e29aee22000a9f38e6_101.mp4" />
+            <meta property="og:video:type" content="video/mp4" />
+            <meta property="og:video:height" content="640" />
+            <meta property="og:video:width" content="640" />
+            <meta property="og:description" content="joepymmosaic's video on Instagram">
+                
+                <meta property="video:tag" content="smitest" />
+                
+            
+            <meta property="og:site_name" content="Instagram" />
+            <meta property="og:title" content="" />
+            <meta property="og:image" content="http://distilleryimage7.ak.instagram.com/72affc14ea5d11e29aee22000a9f38e6_7.jpg" />
+            <meta property="og:determiner" content="a" />
+            <meta property="fb:app_id" content="124024574287414" />
+            <meta property="og:url" content="http://instagram.com/p/bowsK3B-3H/" />
+        
+        
+        
+            
+            <link rel="stylesheet" type="text/css" href="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/cache/media/media-main.css"/>
+        
+        
+        </head>
+        <body class="page-media">
+        
+        
+        <div class="root">
+        
+            <div class="page">
+                
+                    
+                        <header class="top-bar">
+                    <div class="wrapper">
+                        <hgroup>
+                            <h1 class="logo"><a href="/">Instagram</a></h1>
+                            
+                        </hgroup>
+        
+                        
+        
+                        <div class="top-bar-right account-state" id="top_bar_right">
+                            <ul class="top-bar-actions" id="top_bar_actions">
+                                
+                                <li id="link_profile" class="link-signin">
+                                    <a href="javascript:;" class="loginLink">
+                                        <i></i>
+                                        <strong>Log in</strong>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+        
+                            
+        
+                        </div>
+                    </div>
+                </header> <!-- .top-bar -->
+                    
+                
+        
+                
+                <div class="main">
+                    
+                    <div class="wrapper">
+                        
+            <section class="media-wrapper" id="media_wrapper">
+                <div class="media-inner" id="media_inner">
+                    <div class="media-user" id="media_user">
+                        <h2><a href="/joepymmosaic/">joepymmosaic</a></h2>
+                        <div class="media-follow" id="mediaFollow"></div>
+                        <a href="/joepymmosaic/">
+            <span class="img img-inset user-avatar" style="background-image: url(http://images.ak.instagram.com/profiles/anonymousUser.jpg);">
+                <img src="http://images.ak.instagram.com/profiles/anonymousUser.jpg" onerror="imageFallback(this);" alt="" />
+                <b></b>
+            </span>
+        </a>
+                    </div>
+        
+                    
+        
+                    <div class="media-photo" id="media_photo">
+                        <span id="i_like_big" class="i-like-big"></span>
+        
+                        
+                          <span id="media_frame"></span>
+                        
+        
+                        
+                    </div>
+        
+                    <div class="media-info few-comments no-comments no-likes">
+        
+                        
+        
+                        <section class="media-likes">
+                            <h2><span class="like-count"></span><b>Likes</b></h2>
+        
+                            <p class="likes-notice"><span>No likes yet.</span></p>
+        
+                            <div class="like-list " id="like_list">
+                                <ul>
+                                    
+        
+                                    
+                                </ul>
+                            </div>
+        
+                            <i class="media-likes-fade"></i>
+                        </section>
+        
+                        <section class="media-comments">
+                            <h2><span class="comment-count"></span><b>Comments</b></h2>
+                            
+                                
+            <div class="comment caption" data-id="497863807549828981">
+                <a href="/joepymmosaic/">
+                    
+            <span class="img img-inset comment-avatar" style="background-image: url(http://images.ak.instagram.com/profiles/anonymousUser.jpg);">
+                <img src="http://images.ak.instagram.com/profiles/anonymousUser.jpg" onerror="imageFallback(this);" alt="" />
+                <b></b>
+            </span>
+        
+                </a>
+                <p>
+                    <strong class="username"><a href="/joepymmosaic/">joepymmosaic</a></strong>
+                    <span class="comment-text">#smitest hi Joe</span>
+                    <span class="comment-meta"><time datetime="2013-07-11T19:13:32+00:00">30m</time></span>
+                    <span class="comment-info">
+                    
+                    </span>
+                </p>
+            </div>
+        
+                            
+        
+                            <ul id="comment_list">
+                            
+                            </ul>
+        
+                        </section>
+                            
+                            <div class="cta-addcomment">
+                                <p>To add a comment, please <a href="javascript:;" class="login-intent-link">sign in</a>.</p>
+                            </div>
+                            
+        
+                            
+        
+                        <div class="media-bar">
+                            <a class="bar-handle" href="javascript:;"></a>
+        
+                            <ul>
+                                <li class="like-control">
+                                    <strong><span class="count-badge like-count"></span><b>Likes</b></strong>
+                                    <a id="like_button" class="like-button" href="javascript:;">
+                                        <span>Like</span>
+                                        <b></b>
+                                        <i></i>
+                                        <span id="i_like" class="i-like"></span>
+        
+                                    </a>
+                                </li>
+                                <li class="comment-control">
+                                <strong><span class="count-badge comment-count"></span><b>Comments</b></strong>
+                                    <a id="comment_button" class="comment-button" href="javascript:;">
+                                        <span>Comment</span>
+                                        <b></b>
+                                        <i></i>
+                                    </a>
+                                </li>
+                                <li class="embed-control">
+                                  <span id='rC0'></span>
+                                </li>
+                            </ul>
+        
+                            <span class="bar-glyph"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+                    </div> <!-- .main -->
+                    
+                </div> <!-- .main -->
+                
+        
+            </div> <!-- .page -->
+        
+            
+            
+        
+            <footer class="page-footer page-footer-media">
+                <div class="wrapper">
+                    
+        
+                    <nav>
+                        <ul>
+                            <li><a href="/about/legal/privacy/">Privacy</a></li>
+                            <li><a href="/about/legal/terms/">Terms</a></li>
+                        </ul>
+                    </nav>
+        
+                    <p class="copyright">&copy; 2013 Instagram</p>
+                </div>
+            </footer>
+        
+        
+        
+        <div id="reactModalMountPoint"></div>
+        </div> <!-- .root -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-18105282-1']);
+            _gaq.push(['_setDomainName', 'none']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(["_set", "title", "Photo Page"]);
+            _gaq.push(["_setCustomVar", 1, "page", "Photo Page", 3]);
+        
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        
+                <script type="text/javascript" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/cache/strings/strings_en.js"></script>
+                <script>
+        window._csrf_token = '66dc3a069c84b375baed62a75eeda7d5';
+        window._jscalls = [
+        
+        ['bluebar', 'init', []],
+        
+        ['framework/config', 'init', [{staticRoot: '//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602'}]],
+        
+          ["media\/media_detail","init",[false,"",null,true,0,0,"497861900374633927",342185506,"66dc3a069c84b375baed62a75eeda7d5","\/p\/bowsK3B-3H\/","\/accounts\/login\/",{"code":"bowsK3B-3H","is_video":true,"display_src":"http:\/\/distilleryimage7.ak.instagram.com\/72affc14ea5d11e29aee22000a9f38e6_7.jpg","video_url":"http:\/\/distilleryvesper7-7.ak.instagram.com\/72affc14ea5d11e29aee22000a9f38e6_101.mp4"},true,false,false,false,"joepymmosaic"]],
+        
+          ["infra\/react_helper","renderComponent",["lib\/ui\/media\/EmbedLink",null,{"media":{"code":"bowsK3B-3H","is_video":true,"display_src":"http:\/\/distilleryimage7.ak.instagram.com\/72affc14ea5d11e29aee22000a9f38e6_7.jpg","video_url":"http:\/\/distilleryvesper7-7.ak.instagram.com\/72affc14ea5d11e29aee22000a9f38e6_101.mp4"}},"rC0",".rRrC0"]],
+        
+        ];
+        </script>
+        
+        
+        <script type="text/javascript" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/cache/polyfills/polyfill_old.js"></script>
+        <script data-main="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/cache/modules/main.js" src="//d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/scripts/require.js"></script>
+        
+        </body>
+        </html>
+    http_version: 
+  recorded_at: Thu, 11 Jul 2013 19:44:15 GMT
+recorded_with: VCR 2.5.0

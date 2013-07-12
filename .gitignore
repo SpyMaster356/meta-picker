@@ -1,0 +1,7 @@
+*.gem
+.rspec
+Gemfile.lock
+
+coverage/
+
+dev-notes

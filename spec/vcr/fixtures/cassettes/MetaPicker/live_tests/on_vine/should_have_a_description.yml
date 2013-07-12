@@ -1,0 +1,206 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: https://vine.co/v/b5pDOD23KPH
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      User-Agent: 
+      - Faraday v0.8.7
+  response: 
+    status: 
+      code: 200
+      message: 
+    headers: 
+      accept-ranges: 
+      - bytes
+      age: 
+      - "677"
+      cache-control: 
+      - max-age=1800
+      content-type: 
+      - text/html; charset=utf-8
+      date: 
+      - Thu, 11 Jul 2013 19:44:14 GMT
+      server: 
+      - nginx/1.1.19
+      strict-transport-security: 
+      - max-age=631138519
+      via: 
+      - 1.1 varnish
+      x-cache: 
+      - HIT
+      x-varnish: 
+      - 620065529 619898669
+      x-xss-protection: 
+      - 1; mode=block
+      content-length: 
+      - "2383"
+      connection: 
+      - Close
+    body: 
+      encoding: ASCII-8BIT
+      string: |-
+        <!DOCTYPE html>
+        <html>
+        <title>Erik Jensen's post on Vine</title>
+        <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# vine-app: http://ogp.me/ns/fb/vine-app#">
+        	<link rel="stylesheet" type="text/css" href="https://d3422saexnbpnl.cloudfront.net/static/style.css?05142013">
+                <link rel="shortcut icon" type="image/png" href="/static/favicon.ico">
+        	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/style_ie7.css?011320121402" /><![endif]-->
+        	
+        	<link href="//vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
+        	<script src="//vjs.zencdn.net/4.0/video.js"></script>
+        	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        
+        	<meta property="twitter:card" content="player">
+        	<meta property="twitter:title" content="Erik Jensen's post on Vine">
+        	<meta property="twitter:description" content="Olivia will dance to anything. Including a stuffed bear with a saxaphone.">
+        
+        	<meta property="twitter:image" content="https://v.cdn.vine.co/v/thumbs/DDD0C9B2-5D31-4F73-BEF0-7F20C0E1AEF4-6611-000006D0E857E217_1.0.1.mp4.jpg?versionId=X_2zG5zmrNoeLU1Bv3lswAd22trQhmYu">
+        	<meta property="twitter:site" content="@vineapp">
+        	<meta property="twitter:player:width" content="435">
+        	<meta property="twitter:player:height" content="435">
+        	<meta property="twitter:player" content="https://vine.co/v/b5pDOD23KPH/card">
+        	<meta property="twitter:player:stream" content="https://mtc.cdn.vine.co/v/videos/DDD0C9B2-5D31-4F73-BEF0-7F20C0E1AEF4-6611-000006D0E857E217_1.0.1.mp4?versionId=9SxoH9b5AcS3kn22F6CTB9Tp69bVwMhm">
+        	<meta property="twitter:player:stream:content_type" content="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+        
+        	<!-- app card metadata -->
+        	<meta property="twitter:app:name:iphone" content="Vine">
+        	<meta property="twitter:app:url:iphone" content="vine://post/906382264605216768">
+        	<meta property="twitter:app:id:iphone" content="592447445">
+        
+        	<meta property="twitter:app:name:googleplay" content="Vine">
+        	<meta property="twitter:app:url:googleplay" content="https://vine.co/v/b5pDOD23KPH">
+        	<meta property="twitter:app:id:googleplay" content="co.vine.android">
+        
+        	<meta property="og:title" content="Olivia will dance to anything. Including a stuffed bear with a saxaphone.">
+        	<meta property="og:site_name" content="Vine">
+        	<meta property="og:image" content="https://v.cdn.vine.co/v/thumbs/DDD0C9B2-5D31-4F73-BEF0-7F20C0E1AEF4-6611-000006D0E857E217_1.0.1.mp4.jpg?versionId=X_2zG5zmrNoeLU1Bv3lswAd22trQhmYu">
+        	<meta property="fb:app_id" content="1185475921592170">
+        	<meta property="og:type" content="vine-app:video" /> 
+        	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"> 
+        	<script>
+        		$(function () {
+        			var videoContainerSize = $('.video-container').width();
+        			var showVolumeControl = false;
+        
+        			var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()))
+        
+        			if (videoContainerSize > 320) {
+        				var shareTop = $('.share-page .card .user');
+        				var shareMiddle = $('.share-page .card h1');
+        				var shareBottom = $('.share-page .card .shot-with-vine');
+        
+        				showVolumeControl = true;
+        				shareMiddle.height(600 - shareTop.outerHeight() - shareBottom.outerHeight()); 
+        			}
+        
+        			var player = videojs('post', { 'children': { 'loadingSpinner': false, 'controlBar': false }}).ready(function () {
+        				this.width(videoContainerSize);
+        				this.height(videoContainerSize);
+        				if (showVolumeControl) this.volume(0);
+        				else $('.mute-button').remove();
+        				this.load();
+        				var once = false;
+        				f = function() {
+        					if (once) { return; }
+        					once = true;
+        
+        					if (!mobile)
+        						this.play();
+        				};
+        
+        				
+        				this.on('canplaythrough', f)
+        				this.on('canplay', f)
+        			});
+        
+        			$('.mute-button').click(function (e) {
+        				if (player.volume() == 0) {
+        					$(e.target).removeClass('off');
+        					$(e.target).addClass('on');
+        					player.volume(1);
+        				} else {
+        					$(e.target).removeClass('on');
+        					$(e.target).addClass('off');
+        					player.volume(0);
+        				}
+        				return false;
+        			});
+        
+        			$('video').click(function () {
+        				if (player.paused())
+        					player.play()
+        				else
+        					player.pause()
+        			});
+        		});
+        	</script>
+        
+        	<script type="text/javascript">
+        
+        	  var _gaq = _gaq || [];
+        	  _gaq.push(['_setAccount', 'UA-34240974-1']);
+        	  _gaq.push(['_setDomainName', 'vine.co']);
+        	  _gaq.push(['_trackPageview']);
+        
+        	  (function() {
+        	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        	  })();
+        
+        	</script>
+        </head>
+        
+        <body class="share-page">
+        
+        
+        
+        	<div class="card">
+        		<div class="video-container">
+        			<a href="#" class="mute-button off"></a>
+        			<video id="post" class="video-js vjs-default-skin" loop preload="auto" poster="https://v.cdn.vine.co/v/thumbs/DDD0C9B2-5D31-4F73-BEF0-7F20C0E1AEF4-6611-000006D0E857E217_1.0.1.mp4.jpg?versionId=X_2zG5zmrNoeLU1Bv3lswAd22trQhmYu">
+        				<source src="https://mtc.cdn.vine.co/v/videos/DDD0C9B2-5D31-4F73-BEF0-7F20C0E1AEF4-6611-000006D0E857E217_1.0.1.mp4?versionId=9SxoH9b5AcS3kn22F6CTB9Tp69bVwMhm" type="video/mp4">
+        			</video>
+        		</div>
+        		<div class="info">
+        			<div class="user">
+        				<img src="https://v.cdn.vine.co/v/avatars/03128FE6-0FE8-472E-9DDB-5705669C875A-6444-0000066C96C6505F.jpg?versionId=9Ysh7CYh0U9gPLqU52Aw_HieG_lvLze7" class="avatar">
+        				<h2>Erik Jensen</h2>
+        			</div>
+        			<h1>
+        				<div class="inner">
+        					<p>Olivia will dance to anything. Including a stuffed bear with a saxaphone.</p>
+        				</div>
+        			</h1>
+        			<div class="shot-with-vine">
+        				<img src="https://d3422saexnbpnl.cloudfront.net/static/images/shot_with_vine.png" width="171" height="30">
+        				<a class="action-button" href="/">Download App</a>
+        			</div>
+        		</div>
+        
+        	<div class="share-options hide-mobile">
+        		<div class="pill">
+        			<div class="embed">
+        				<a href="/v/b5pDOD23KPH/embed">
+        					<img src="https://d3422saexnbpnl.cloudfront.net/static/images/embed_button_2x.png" width="69" height="20">
+        				</a>
+        			</div>
+        			<div class="twitter">
+        				<!-- data-count="none" -->
+        				<a href="https://twitter.com/share" class="twitter-share-button" style="display: none;" data-lang="en">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        			</div>
+        		</div>
+        	</div>
+        
+        	</div>
+        
+        </body>
+        </html>
+    http_version: 
+  recorded_at: Thu, 11 Jul 2013 19:44:14 GMT
+recorded_with: VCR 2.5.0

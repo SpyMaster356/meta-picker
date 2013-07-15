@@ -3,7 +3,7 @@ require File.expand_path('../lib/meta-picker/', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "meta-picker"
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.platform    = Gem::Platform::RUBY
   s.date        = '2013-07-11'
   s.authors     = ["Stephen A. Wilson"]

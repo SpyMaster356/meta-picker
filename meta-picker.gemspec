@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'meta/picker/version'
+require 'meta-picker/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "meta-picker"
-  spec.version       = Meta::Picker::VERSION
+  spec.version       = MetaPicker::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.date          = '2013-07-11'
   spec.authors       = ["Stephen A. Wilson"]

@@ -1,0 +1,26 @@
+- twitter card
+  - meta tags
+    - get mp4 video on vine tweets
+
+- open graph data
+- meta tags on page
+
+use gems when posible
+
+Name.new("url").twitter_card
+Name.new("url").og_data
+Name.new("url").meta_tags
+
+
+<blockquote class="twitter-tweet"><p>many good points, and ideas: <a href="http://t.co/WLSvwIA1GM">http://t.co/WLSvwIA1GM</a></p>&mdash; Stephen Wilson (@SpyMaster356) <a href="https://twitter.com/SpyMaster356/statuses/349906674687025154">June 26, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+https://twitter.com/SpyMaster356/statuses/349906674687025154
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@nytimesbits">
+<meta name="twitter:creator" content="@nickbilton">
+<meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/">
+<meta property="og:title" content="A Twitter for My Sister">
+<meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling.">
+<meta property="og:image" content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg">

@@ -1,32 +1,39 @@
-# -*- encoding: utf-8 -*-
-require File.expand_path('../lib/meta-picker/', __FILE__)
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'meta/picker/version'
 
-Gem::Specification.new do |s|
-  s.name        = "meta-picker"
-  s.version     = '0.1.0'
-  s.platform    = Gem::Platform::RUBY
-  s.date        = '2013-07-11'
-  s.authors     = ["Stephen A. Wilson"]
-  s.email       = ["stephen.wilson@mosaic.com"]
-  s.homepage    = ""
-  s.summary     = %q{}
-  s.description = %q{}
+Gem::Specification.new do |spec|
+  spec.name          = "meta-picker"
+  spec.version       = Meta::Picker::VERSION
+  spec.platform      = Gem::Platform::RUBY
+  spec.date          = '2013-07-11'
+  spec.authors       = ["Stephen A. Wilson"]
+  spec.email         = ["stephen.wilson@mosaic.com"]
+  spec.description   = %q{}
+  spec.summary       = %q{Allows for easy reading of a page's meta data}
+  spec.homepage      = ""
+  spec.license       = "MIT"
 
-  s.files = Dir["{lib,spec}/**/*", "[A-Z]*", "init.rb"]
-  s.require_path = "lib"
+  spec.files         = `git ls-files`.split($/)
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_path = "lib"
+  spec.require_paths = ["lib"]
 
-  s.required_rubygems_version = ">= 1.3.4"
+  spec.required_rubygems_version = ">= 1.3.4"
 
-  s.add_dependency 'nokogiri'
-  s.add_dependency 'hashie'
-  s.add_dependency 'faraday'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'hashie'
+  spec.add_dependency 'faraday'
 
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "vcr"
-  s.add_development_dependency "simplecov"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "rake"
 
-  s.files         = `git ls-files`.split("\n")
-  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.require_paths = ["lib"]
+  spec.files         = `git ls-files`.split("\n")
+  spec.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  spec.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
 end

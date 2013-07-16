@@ -1,4 +1,4 @@
-# Meta::Picker
+# Meta-Picker
 
 Add easy access to a given pages's meta data. Has filters for twitter cards, and open graph meta data.
 
@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
   
     # create MetaPicker client and pass it a webpage
-    picker = MetaPicker.new(http://www.example.com)
+    picker = MetaPicker.new("http://www.example.com")
 
     #retrive all twitter card data
     tc = picker.twitter_card

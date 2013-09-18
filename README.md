@@ -1,4 +1,4 @@
-# Meta-Picker
+# Meta-Picker [![Build Status](https://travis-ci.org/mosaicxm/meta-picker.png?branch=master)](https://travis-ci.org/mosaicxm/meta-picker)
 
 Add easy access to a given pages's meta data. Has filters for twitter cards, and open graph meta data.
 

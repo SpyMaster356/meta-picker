@@ -23,7 +23,11 @@ Gem::Specification.new do |spec|
 
   spec.required_rubygems_version = ">= 1.3.4"
 
-  spec.add_dependency 'nokogiri'
+  if RUBY_VERSION < '1.9.2'
+    spec.add_dependency 'nokogiri', '~>1.5.10'
+  else
+    spec.add_dependency 'nokogiri'
+  end
   spec.add_dependency 'hashie'
   spec.add_dependency 'faraday'
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MetaPicker::VERSION
   spec.platform      = Gem::Platform::RUBY
   spec.date          = '2013-07-11'
-  spec.authors       = ["Stephen A. Wilson"]
-  spec.email         = ["stephen.wilson@mosaic.com"]
+  spec.authors       = ["Stephen A. Wilson","S. Brent Faulkner"]
+  spec.email         = ["stephen-356@hotmail.com","sbfaulkner@gmail.com"]
   spec.description   = %q{}
   spec.summary       = %q{Allows for easy reading of a page's meta data}
   spec.homepage      = ""
@@ -33,11 +33,13 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "vcr"
-  spec.add_development_dependency "simplecov"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 
-  spec.files         = `git ls-files`.split("\n")
-  spec.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  spec.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  if RUBY_VERSION < '1.9.3'
+    spec.add_development_dependency "rcov"
+  else
+    spec.add_development_dependency "simplecov"
+    spec.add_development_dependency "simplecov-rcov"
+  end
 end

@@ -1,5 +1,18 @@
-require 'simplecov'
-SimpleCov.start
+if RUBY_VERSION >= '1.9.3'
+  require 'simplecov'
+  require 'simplecov-rcov'
+
+  SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+    SimpleCov::Formatter::HTMLFormatter,
+    SimpleCov::Formatter::RcovFormatter,
+  ]
+
+  SimpleCov.start do
+    add_filter 'spec'
+  end
+else
+  require 'rspec/autorun'
+end
 
 require 'rubygems'
 require 'test/unit'

@@ -34,9 +34,9 @@ Or install it yourself as:
     #retrive all meta data
     am = picker.all_meta
     am.twitter_title            #=> "Example twitter title"
-    tc.twitter_description      #=> "Example twitter description"
-    tc.og_title            #=> "Example twitter title"
-    tc.og_description      #=> "Example twitter description"
+    am.twitter_description      #=> "Example twitter description"
+    am.og_title                 #=> "Example twitter title"
+    am.og_description           #=> "Example twitter description"
 
 ## Contributing
 
